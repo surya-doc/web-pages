@@ -1,0 +1,156 @@
+/* starting style of about section */
+
+.about-section {
+  background: linear-gradient(
+      92.69deg,
+      #82d4f8 5.04%,
+      rgba(255, 255, 255, 0) 53.88%,
+      rgba(157, 222, 249, 0.78125) 77.7%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 10px 20px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+}
+
+.about-heading{
+    text-align: center;
+}
+
+.about-text{
+    letter-spacing: 1px;
+}
+/* <!-- starting of message --> */
+
+.msg-img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 1px 10px 20px 2px rgba(0, 0, 0, 0.4);
+}
+
+.message-cont{
+    border-radius: 50%;
+    margin-right: 40px;
+    text-align: center;
+}
+
+
+.text h2{
+    text-align: center;
+}
+
+/* 
+
+
+
+
+
+.msg-image{
+
+    display: inline-block;
+    width: 18%;
+}
+
+.msg-text{
+    display: inline-block;
+    margin-left: 20px;
+    display: inline-block;
+    width: 78%;
+}  */
+/*
+.msg-heading{
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+.p{
+    font-size: 12px;
+    text-align: center;
+}
+/* .container{
+    text-align: center;
+    padding:7px 0;
+    border: 1px solid;
+    margin-top: 8px;
+    box-shadow: inset 0 0 10px #000000;
+    font-weight: bold;
+} */
+.navbar{
+    background: linear-gradient(269.95deg, rgba(104, 119, 255, 0.902703) 42.74%, rgba(255, 255, 255, 0) 76.88%), linear-gradient(90deg, #C6FDF0 44.6%, rgba(255, 255, 255, 0) 61.56%), #33B5FF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Amethysta;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 19px;
+    padding: 10px;
+}
+img{
+    height: 29px;
+    width: 35px;
+}
+.container-md{
+    text-align: center;
+    border: 1px solid ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+@media screen and (min-width: 300px) {
+    div.name {
+      font-size: auto;
+    }
+    div.p{
+        font-size: auto;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .name {
+      font-size: 90%;
+      text-align: center;
+    }
+    div.p{
+        font-size: 80%;
+    }
+
+    .nav-logo{
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .navbar-brand{
+        font-size: 80%;
+    }
+}
+
+
+
+/* footer style */
+
+
+.footer-cont {
+    overflow: hidden;
+    margin-top: 50px;
+    background: #2B2A2F;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
